@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Nike</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-black text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+             <h1 class="text-xl font-bold">Nike Boutique</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#products" class="hover:text-red-500">Produits</a></li>
+                    <li><a href="#about" class="hover:text-red-500">À propos</a></li>
+                    <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+    <main class="container mx-auto px-4 py-12">
+        <section id="products" class="text-center">
+            <h2 class="text-3xl font-bold mb-8">Chaussures Nike</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                         <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                    <img src="image/pexels-craytive-1456706 (1).jpg" alt="Produit 1" class="w-full rounded-t-lg mb-4">
+                    <h3 class="text-lg font-semibold">Nike</h3>
+                    <p class="text-gray-600 mb-4">Chaussure de sport légère et confortable.</p>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                        Acheter maintenant
+                    </button>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                    <img src="image/pexels-grailify-2658558-4252970.jpg " alt="Produit 2" class="w-full rounded-t-lg mb-4">
+                    <h3 class="text-lg font-semibold">Nike</h3>
+                    <p class="text-gray-600 mb-4">Modèle innovant pour la performance.</p>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                        Acheter maintenant
+                    </button>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                    <img src="image/pexels-grailify-2658558-4223760.jpg" alt="Produit 3" class="w-full rounded-t-lg mb-4">
+                    <h3 class="text-lg font-semibold">Nike</h3>
+                    <p class="text-gray-600 mb-4">Design élégant.</p>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                        Acheter maintenant
+                    </button>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                    <img src="image/pexels-melvin-buezo-1253763-18946902.jpg" alt="Produit 4" class="w-full rounded-t-lg mb-4">
+                    <h3 class="text-lg font-semibold">Nike</h3>
+                    <p class="text-gray-600 mb-4">Confort ultime pour le quotidien.</p>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                        Acheter maintenant
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+ <section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Contactez-nous</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" id="name" class="form-control" placeholder="Entrez votre nom">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Entrez votre email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" rows="4" class="form-control" placeholder="Votre message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+  </div>
+</section>
+    <footer class="bg-black text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Nike Boutique. Tous droits réservés.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="hover:text-red-500">Facebook</a>
+                <a href="#" class="hover:text-red-500">Instagram</a>
+                <a href="#" class="hover:text-red-500">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+ 
